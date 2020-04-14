@@ -60,9 +60,13 @@ For each gene you, I have run regression (AGE should be explanatory variable and
 <img src="images/Part_C_Diagram.png" width="450">
 
 **After All Parts;**
-I have restructured my dataframe and constructed a PCA for LGm123 and LGm456
+I have restructured my dataframe and constructed a ***PCA*** for LGm123 and LGm456
 
 <img src="images/PCA.png" width="500">
+
+I have also created a ***Heatmap*** with modified all data before filtering for Parts 1 and 2
+
+<img src="images/Heatmap.png" width="500">
 
 
 
