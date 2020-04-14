@@ -43,23 +43,27 @@ I have annotated samples by disease status. Both data sets have normal and tumor
 For each gene I compared two groups (normal, tumor) with t-test and generated a p-value. Then I have ordered genes in increasing order of p-values and report top 20 genes I found.
 Repeated the same processes for both datasets.
 
-<img src="images/Part_A_Diagram.png">
+<img src="images/Part_A_Diagram.png" width="450">
 
 ## Part B:
 
 I have annotated samples by expression and methylation based clusters. Each cluster have LGG and GBM samples. I compared LGG and GBM samples within IDH-mut (LGm1-2-3) samples. Then compared LGG and GBM samples within IDH-wt (LGm4-5-6) samples.
 For each gene I compared two groups with t-test and generated a p-value. Then I ordered genes in increasing order of p-values and report top 20 genes that I have found.
 
-<img src="images/Part_B_Diagram.png">
+<img src="images/Part_B_Diagram.png" width="450">
 
 ## Part C:
 
 In part C I annotated samples by expression and methylation based clusters. Each cluster have LGG and GBM samples. Compared LGG and GBM samples within IDH-mut (LGm1-2-3) samples. Then used regression (https://en.wikipedia.org/wiki/Linear_regression) to find genes that correlate with Patient Age for two subtypes. 
 For each gene you, I have run regression (AGE should be explanatory variable and gene should be dependent variable) and generated a p-value. Then I ordered genes in increasing order of p-values and report top 20 genes that I found. 
 
-<img src="images/Part_C_Diagram.png">
+<img src="images/Part_C_Diagram.png" width="450">
 
 **After All Parts;**
 I have restructured my dataframe and constructed a PCA for LGm123 and LGm456
+
+<img src="images/PCA.png" width="500">
+
+
 
 
